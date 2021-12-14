@@ -1,0 +1,45 @@
+.card {
+  display: flex;
+  justify-content: space-evenly;
+  min-height: 30rem;
+  margin: 0 auto;
+}
+form {
+  max-width: 550px;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 3px 24px -8px rgba(0, 0, 0, 0.75);
+}
+
+.title {
+  text-align: center;
+  font-size: 40px;
+}
+
+.name-field {
+  margin-bottom: 40px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
+  background: transparent;
+  border-radius: 5px;
+}
+
+.render-chat {
+  max-width: 550px;
+  width: 100%;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 3px 24px -8px rgba(0, 0, 0, 0.75);
+  overflow: auto;
+}
+
+h3 {
+  color: #2f72da;
+}
+
+span {
+  color: black;
+}
